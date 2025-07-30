@@ -55,8 +55,16 @@ We keep `Caddyfile` inside `C:\Caddy` (or inside project root):
     mkdir C:\Caddy
 ```
 3. Place the downloaded caddy.exe inside C:\Caddy.
+4. Inside Caddy folder create `Caddyfile` file and add this content.
+```Plaintext
+    https://localhost
 
-4. (Optional) Add C:\Caddy to your PATH:
+    encode zstd gzip
+    
+    respond "Hello from Caddy with HTTP/3!"
+```
+
+5. (Optional) Add C:\Caddy to your PATH:
 ```
     Open Environment Variables → Edit Path → Add C:\Caddy
 ```
