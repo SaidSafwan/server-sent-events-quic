@@ -80,7 +80,7 @@ Caddy automatically:
 
 ### 3. Install Node.js Dependencies
 ```
-  npm install
+    npm install
 ```
 
 ## Verifying Output
@@ -88,11 +88,11 @@ Caddy automatically:
 Run only the Node.js server:
 
 ```
-  node server.js
+    node server.js
 ```
 Open in browser:
 ```
-http://localhost:3000
+    http://localhost:3000
 ```
 Note: here http!
 You will see real-time Server-Sent Events updating every second.
@@ -105,7 +105,7 @@ locate to caddy file path and execute caddy
 
 Open in browser:
 ```
-https://localhost
+    https://localhost
 ```
 Note: here https
 
