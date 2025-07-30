@@ -1,0 +1,24 @@
+{
+  "name": "server-sent-events-quic",
+  "version": "1.0.0",
+  "description": "A demo project showcasing Server-Sent Events (SSE) with QUIC (HTTP/3) using Express and Caddy.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "SSE",
+    "QUIC",
+    "HTTP3",
+    "Express",
+    "Caddy",
+    "real-time",
+    "server-sent-events"
+  ],
+  "author": "Mohammed Safwan",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
